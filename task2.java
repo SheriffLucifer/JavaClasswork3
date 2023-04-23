@@ -12,7 +12,7 @@ public class task2 {
         list.add(5);
         list.add(4.5);
         for (int i = 0; i < list.size(); i++) {
-            if (list.get(i) instanceof String) {
+            if (list.get(i) instanceof Integer) {
                 list.remove(i);
                 i--;
             }
